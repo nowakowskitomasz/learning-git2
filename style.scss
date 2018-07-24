@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+$fonts: 'Gaegu', cursive;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: $fonts;
+	background-color: #24292E;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*="col-"] {
+ 	float: left;
+ 	width: 100%;
+}
+
+@for $i from 1 to 12 {
+    .col-#{$i} {
+    	width: 8.33% * $i; 
+    	}
+    }
+
+@media (max-width: 767px){
+    @for $i from 1 to 12 {
+    	.col-s-#{$i} {
+    		width: 8.33% * $i; 
+    	}
+    }
+}
