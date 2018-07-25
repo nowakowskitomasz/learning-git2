@@ -8,6 +8,10 @@ body {
   background-color: #24292E;
   color: white; }
 
+h1,
+h2 {
+  text-align: center; }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -22,8 +26,7 @@ body {
 
 [class*="col-"] {
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
 .col-1 {
   width: 8.33%; }
@@ -91,3 +94,4 @@ body {
 
   .col-s-11 {
     width: 91.63%; } }
+    
