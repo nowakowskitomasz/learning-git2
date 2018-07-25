@@ -61,6 +61,9 @@ h2 {
 .col-11 {
   width: 91.63%; }
 
+.col-12 {
+  width: 99.96%; }
+
 @media (max-width: 767px) {
   .col-s-1 {
     width: 8.33%; }
@@ -93,5 +96,8 @@ h2 {
     width: 83.3%; }
 
   .col-s-11 {
-    width: 91.63%; } }
+    width: 91.63%; }
+
+  .col-s-12 {
+    width: 99.96%; } }
     
