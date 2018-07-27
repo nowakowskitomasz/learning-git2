@@ -16,7 +16,8 @@ h2 {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  display: flex; }
 
 .row::before,
 .row::after {
