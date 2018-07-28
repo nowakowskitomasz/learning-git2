@@ -1,125 +1,49 @@
 @import url("https://fonts.googleapis.com/css?family=Gaegu");
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-body {
-  margin: 0 auto;
-  font-family: "Gaegu", cursive;
-  background-color: #24292E;
-  color: white;
-}
+body { margin: 0 auto; font-family: "Gaegu", cursive; background-color: #24292E; color: white; }
 
-h1,
-h2 {
-  text-align: center;
-}
+h1, h2 { text-align: center;}
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-}
+.container { width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; display: -ms-flexbox; display: flex; }
 
-.row::before,
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+.row::before, .row::after { content: ""; display: table; clear: both; }
 
-[class*="col-"] {
-  float: left;
-  width: 100%;
-}
+[class*="col-"] { float: left; width: 100%; }
 
-.col-1 {
-  width: 8.33%;
-}
+.col-1 { width: 8.33%; }
 
-.col-2 {
-  width: 16.66%;
-}
+.col-2 { width: 16.66%; }
 
-.col-3 {
-  width: 24.99%;
-}
+.col-3 { width: 24.99%; }
 
-.col-4 {
-  width: 33.32%;
-}
+.col-4 { width: 33.32%; }
 
-.col-5 {
-  width: 41.65%;
-}
+.col-5 { width: 41.65%; }
 
-.col-6 {
-  width: 49.98%;
-}
+.col-6 { width: 49.98%; }
 
-.col-7 {
-  width: 58.31%;
-}
+.col-7 { width: 58.31%; }
 
-.col-8 {
-  width: 66.64%;
-}
+.col-8 { width: 66.64%; }
 
-.col-9 {
-  width: 74.97%;
-}
+.col-9 { width: 74.97%; }
 
-.col-10 {
-  width: 83.3%;
-}
+.col-10 { width: 83.3%; }
 
-.col-11 {
-  width: 91.63%;
-}
+.col-11 { width: 91.63%; }
 
-.col-12 {
-  width: 99.96%;
-}
+.col-12 { width: 99.96%; }
 
-@media (max-width: 767px) {
-  .col-s-1 {
-    width: 8.33%;
-  }
-  .col-s-2 {
-    width: 16.66%;
-  }
-  .col-s-3 {
-    width: 24.99%;
-  }
-  .col-s-4 {
-    width: 33.32%;
-  }
-  .col-s-5 {
-    width: 41.65%;
-  }
-  .col-s-6 {
-    width: 49.98%;
-  }
-  .col-s-7 {
-    width: 58.31%;
-  }
-  .col-s-8 {
-    width: 66.64%;
-  }
-  .col-s-9 {
-    width: 74.97%;
-  }
-  .col-s-10 {
-    width: 83.3%;
-  }
-  .col-s-11 {
-    width: 91.63%;
-  }
-  .col-s-12 {
-    width: 99.96%;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 767px) { .col-s-1 { width: 8.33%; }
+  .col-s-2 { width: 16.66%; }
+  .col-s-3 { width: 24.99%; }
+  .col-s-4 { width: 33.32%; }
+  .col-s-5 { width: 41.65%; }
+  .col-s-6 { width: 49.98%; }
+  .col-s-7 { width: 58.31%; }
+  .col-s-8 { width: 66.64%; }
+  .col-s-9 { width: 74.97%; }
+  .col-s-10 { width: 83.3%; }
+  .col-s-11 { width: 91.63%; }
+  .col-s-12 { width: 99.96%; } }
